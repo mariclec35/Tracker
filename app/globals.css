@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: radial-gradient(circle at top left, #f9f7f2 0%, #f1efe9 45%, #ece8df 100%);
+  color: #1b1b1f;
+}
+
+.card-surface {
+  @apply rounded-2xl bg-paper shadow-card border border-black/5;
+}
+
+.subtle-text {
+  @apply text-sm text-stone;
+}
